@@ -16,5 +16,6 @@
         <module>eog_api</module>
         <module>eog_service</module>
         <module>eog_job</module>
+        <module>eog_netty</module>
     </modules>
 </project>
