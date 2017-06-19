@@ -1,4 +1,4 @@
-package common;
+package com.simon.eyeofgod.common.string;
 
 import java.util.HashMap;
 import java.util.LinkedList;

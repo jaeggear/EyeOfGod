@@ -1,6 +1,7 @@
 package common;
 
 
+import com.simon.eyeofgod.common.string.StringCompare;
 import org.junit.Test;
 
 /**

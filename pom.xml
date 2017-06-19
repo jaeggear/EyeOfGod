@@ -17,6 +17,8 @@
         <module>eog_service</module>
         <module>eog_job</module>
         <module>eog_netty</module>
+        <module>eog_common</module>
+        <module>eog_test</module>
     </modules>
 
     <properties>
@@ -30,6 +32,16 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.11</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

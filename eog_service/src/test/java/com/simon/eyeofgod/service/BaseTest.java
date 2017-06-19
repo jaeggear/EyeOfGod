@@ -12,4 +12,8 @@ public class BaseTest {
         }
         System.out.println(data.toString());
     }
+
+    public void tab(){
+        show("************************************");
+    }
 }
