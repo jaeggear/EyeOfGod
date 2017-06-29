@@ -1,5 +1,6 @@
 package com.simon.eog.test.common;
 
+import com.simon.eog.test.base.BaseTest;
 import org.junit.Test;
 
 
@@ -7,7 +8,7 @@ import org.junit.Test;
  * @author zhouzhenyong
  * @since 2017/6/19.
  */
-public class testFun extends BaseTest{
+public class testFun extends BaseTest {
     @Test
     public void test_final_1(){
         final A a = new A();

@@ -2,6 +2,7 @@ package com.simon.eyeofgod.service;
 
 
 import com.alibaba.fastjson.JSON;
+import com.simon.eog.test.base.BaseTest;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -12,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author zhouzhenyong
  * @since 2017/6/12.
  */
-public class testFun extends BaseTest{
+public class testServiceFun extends BaseTest {
     @Test
     public void testHashMap_1(){
         HashMap hashMap = new HashMap();

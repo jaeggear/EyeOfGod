@@ -19,10 +19,12 @@
         <module>eog_netty</module>
         <module>eog_common</module>
         <module>eog_test</module>
+        <module>eog_groovy</module>
     </modules>
 
     <properties>
         <spring.version>2.5.6.SEC03</spring.version>
+        <groovy.version>2.4.7</groovy.version>
     </properties>
 
     <dependencyManagement>
@@ -42,6 +44,11 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>1.2.11</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy-all</artifactId>
+                <version>${groovy.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

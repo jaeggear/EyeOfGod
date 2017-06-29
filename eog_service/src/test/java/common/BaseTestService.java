@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Created by zhouzhenyong on 2017/6/4.
  */
-public class BaseTest {
+public class BaseTestService {
     private StringCompare stringCompare = new StringCompare();
 
     public void show(Object ob){
